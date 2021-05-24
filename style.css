@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(abg.png);
+	background-size: cover;
+}
+nav{
+	/*border: 1px solid grey;*/
+	width: 99%; 
+	height: 2vh;
+	/*background-color: grey;*/
+	text-align: center;
+}
+nav .menu{
+	width: 99%; 
+	display: flex; 
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.menu a{
+	text-decoration: none;
+	width: 33%;
+	color: #00FFCC;
+	font-weight: bold; 
+	font-size: 20px;
+    border: 2px solid red;
+	border-radius: 27px;
+	padding-top: 10px;
+
+}
+.menu a:hover{
+	font-weight: bold;
+	border: 2px solid  #DE3163 ;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+    
+}
+.menu a:hover span{
+	width: 100%;
+}
+h2{
+	color: #00FFCC; 
+	font-size: 25px;
+	padding-left: 22px;
+	padding-top: 120px;
+}
+h4{
+	padding-top: 25px;
+	padding-right: 10%;
+	font-size: 15px;
+	color: #00FFCC;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+.logo img{
+	width: 80px;
+	filter: invert(100%);
+	float: right;
+	padding-right: 25px;
+	padding-top: 75px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 150px 30px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid red;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background:  #DE3163 ;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+
+
+.socials a{
+	background: #364a6;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	float: right;
+	text-decoration: none;
+}
+.socials a i{
+	color: white;
+	padding: 10px 12px;
+	font-size: 20px;
+}
+.socials a i:hover{
+	color: red;
+}
+.copyrightText{
+	padding: 8px 40px;
+	border-top: 2px solid grey;
+	text-align: center;
+}
+.copyrightText p{
+	color: white;
+}
+.copyrightText a{
+	text-decoration: none;
+	color: red;
+}
+
+
